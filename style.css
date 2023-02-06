@@ -1,0 +1,323 @@
+.menuContainer{
+    /* border: solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: #003200;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.logo{
+     /* border: solid magenta; */ 
+    width: 15%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: solid white;
+}
+.menu{
+    /* border: solid blue; */
+    width: 55%;
+}
+.searchbar{
+    /* border: solid yellow; */
+    width: 25%;
+}
+.listLogin{
+    /* border: solid green; */
+    width: 10%;
+}
+.menulist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 20px;
+}
+.menuItem{
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.menuItem:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.searchInput{
+    width:90%;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+.listLogin{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.login{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.login:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 8px;
+}
+.listText{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.listText:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+    
+}
+.listIcon{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+
+/**************************************SHaniscss ****************************************/
+
+.mainContainer{
+    background-color: #FEFCF3;
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    overflow-x: clip;
+}
+
+
+.searchBar{
+    border: 1px solid;
+    padding: 14px;
+    display: block;
+    width: 30%;
+    
+}
+
+.topNav{
+    background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/store_selector/store-banner-d%402x-crop.png");
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    width: 95%;
+}
+
+#heading2{
+    width: 80%;
+}
+
+
+.row2{
+    background-color: white;
+    display: flex;
+
+}
+
+.button3{
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    background-color: #003200;
+    border: none;
+}
+
+.middDiv{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.mainCatContainer{
+    height:82vh;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.imagesList{
+     border: solid green;
+     width: 80%;
+
+}
+
+.browsMenuItem{
+    color: #2e2d2b;
+    text-decoration: none;
+}
+
+.browsMenuItem:hover{
+    text-decoration: underline;
+}
+a{
+    color: gray;
+    text-decoration: none;
+    
+}
+.browsMenuItem{
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+.spanMenu{
+    color: #2e2d2b;
+    margin-left: 30px;
+    font-size: 1.2em;
+    
+}
+.item1{
+    display: grid;
+}
+.spanMenu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.menuItemLink{
+    color: #2e2d2b;
+}
+
+
+.listgridContainer{
+    width: 80%; 
+     height: 100vh; 
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%
+
+}
+.imgMenu{
+width: 60%;
+margin-bottom: 0px;
+
+}
+
+/*.thirdContainer{
+    border: solid blueviolet;
+    background-color: white;
+    display: grid; */
+    
+
+.thirdCont{
+    float: left;
+    padding: 10px;
+    display: flex;
+}
+
+.button4{
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    background-color: #003200;
+    border: none;
+}
+
+.h1360{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 30%;
+}
+
+.photo3{
+    margin-left: 35%;
+}
+
+footer{
+    display: grid;
+    margin-top: 100vh;
+    background-color: #003200;
+}
+.footerLogo{
+    /* border: solid black; */
+
+}
+.mapfooter{
+    /* border: solid magenta; */
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu{
+    height: 12vh;
+    background-color: #025c02;
+    color: white;
+}
+.map1{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map2{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map3{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+}
+.map4{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.map1title{
+    font-size: 1.5em;
+}
+.listMap1{
+    list-style: none;
+    padding-left: 0;
+   
+}
+.listMap1Item{
+    padding: 3px;
+    
+}
+.emailsign{
+    background-color: #003200;
+    color: white;
+    padding: 5%;
+    width: 60%;
+    border-color: white;
+    font-weight: bold;
+}
+.footMenuList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footmenuItem{
+    display: inline;
+    width: 7%;
+    font-size: .9em;
+}
+.longfootmenuItem{
+    width: 25%;
+}
